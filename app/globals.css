@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  :root {
+    @apply p-10 h-[100vh] overflow-hidden flex flex-col justify-center text-zinc-800 bg-[#ececec];
+  }
+
+  .main {
+    @apply h-[400px] bg-white p-5 flex flex-col items-center justify-center mt-2 rounded-[2rem];
+  }
+
+  .btn {
+    @apply drop-shadow px-10 py-3 rounded-lg;
+  }
+
+  .btn-primary {
+    @apply bg-white hover:bg-gray-200 text-black;
+  }
+  .google {
+    @apply text-2xl font-bold text-rose-600;
+  }
+
+  .avatar {
+    @apply rounded-full drop-shadow-lg my-5;
+  }
+}
